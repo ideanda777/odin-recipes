@@ -31,7 +31,7 @@
     display: inline-block;
     color: black;
     font-size: 20px;
-    transition: color 500ms, text-decoration 2s ease-in;
+    transition: color 250ms, text-decoration 2s ease-in;
 }
 
 .recipe-links li{
@@ -54,6 +54,26 @@ body{
 
 /* Al Pastor Section */
 
-.pastor-header{
+.pastor-header, .horchata-header, .lasagna-header{
     font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 8px;
+    margin-left: 20px;
+}
+
+.pastor-image{
+    border-radius: 10%;
+    height: auto;
+    width: 300px;
+    margin-left: 20px;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: .5px;
+    line-height: 1.2;
 }
