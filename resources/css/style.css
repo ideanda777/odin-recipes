@@ -58,21 +58,43 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 8px;
     margin-left: 20px;
+    text-align: center;
 }
 
 .pastor-image{
     border-radius: 10%;
     height: auto;
     width: 300px;
-    margin-left: 20px;
+    position: relative;
+    left: 40%;
+    margin:20px, auto;
 }
 
-.ingredients{
+.recipe-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.ingredients, .steps{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 2px;
     font-size: 25px;
     text-decoration: underline;
+    margin: 20px;
 
+}
+
+.ingredient-list, .step-list{
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.7;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.step-list li{
+    margin-bottom: 10px;
 }
 
 p{
@@ -80,4 +102,5 @@ p{
     word-spacing: 1px;
     letter-spacing: .5px;
     line-height: 1.2;
+    margin: 20px;
 }
