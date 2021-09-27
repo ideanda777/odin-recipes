@@ -3,16 +3,21 @@
     letter-spacing: 10px;
     font-size: 40px;
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: black;
     font-weight: lighter;
+}
+
+.main-header span{
+    color: #c60021;
+    font-size: 45px;
 }
 
 .main-image{
     height: auto;
-    width: 300px;
-    margin: auto;
-    position: relative;
-    left: 40px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 10%;
+    float: right;
 }
 
 .recipe-links{
@@ -23,7 +28,7 @@
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
     display: inline-block;
-    color: white;
+    color: black;
     font-size: 20px;
 
 }
@@ -33,10 +38,14 @@
     position: relative;
     right: 50px;
     float: right;
-    bottom: 60px;
-    margin-right: 15px;
+    bottom: 65px;
+    margin-right: 18px;
+}
+
+.recipe-links a:hover{
+    color: #c60021
 }
 
 body{
-    background-color: #00ABE1;
+    background-color: #e3e3e3;
 }
