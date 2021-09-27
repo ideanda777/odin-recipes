@@ -8,6 +8,7 @@
     text-decoration: none;
     margin-left: 20px;
     font-variant: small-caps;
+    background-color: #e3e3e3 ;
 }
 
 .main-header span{
@@ -17,11 +18,20 @@
 
 .main-image{
     height: auto;
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 10%;
-    margin-top: 10px;
-    margin-left: 20px;
+    width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    display: block;
+    margin: auto;
+    position: relative;
+    left: 150px;
+    transition: width 1s ease-in-out, border 1s, box-shadow 1s ease-in-out;
+}
+
+.main-image:hover{
+    width: 800px;
+    border: none;
+    box-shadow: 5px -5px 13px -4px rgba(135, 135, 135, 0.97);
+    cursor: pointer;
 }
 
 .recipe-links{
@@ -52,7 +62,9 @@
 
 body{
     background-color: #e3e3e3;
-    background-image: url('') ;
+    /*background-image: url('/resources/1280x720-5424088-tomato-vegetable-food-cook-cooking-flat-lay-wood-texture-white-abstract-modern-minimalist-red-citrus-berries-gray-surface-green-chive-clean-organic-free-stock-photos.jpg') ;
+    background-position:top;
+    background-repeat: no-repeat;*/
 }
 /* Recipes Section */
 
@@ -63,6 +75,7 @@ body{
     text-align: center;
     font-size: 35px;
     font-variant: small-caps;
+    background-color: #e3e3e3 ;
 }
 
 .food-image{
